@@ -1,15 +1,11 @@
-diff --git a/west.yml b/west.yml
-index 3971230df..95178444c 100644
 --- a/west.yml
 +++ b/west.yml
-@@ -127,8 +127,8 @@ manifest:
+@@ -127,7 +127,7 @@ manifest:
            upstream-sha: 1225729e8d84075f03bf9fc51eee85d84dfb0091
            compare-by-default: true
      - name: mcuboot
 -      repo-path: sdk-mcuboot
--      revision: v1.10.99-ncs1-1
 +      url: https://github.com/hiviah/mcuboot
-+      revision: main
+       revision: v1.10.99-ncs1-1
        path: bootloader/mcuboot
      - name: qcbor
-       url: https://github.com/laurencelundblade/QCBOR.git
